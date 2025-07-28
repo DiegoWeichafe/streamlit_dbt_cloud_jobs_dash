@@ -35,13 +35,13 @@ This tool provides real-time visibility into dbt Cloud job execution status, per
    ```
    DBT_CLOUD_API_TOKEN=your_api_token_here
    DBT_CLOUD_ACCOUNT_ID=your_account_id_here
-   DBT_CLOUD_BASE_URL=https://au.dbt.com
+   DBT_CLOUD_BASE_URL=https://xyz.getdbt.com
    ```
 
 2. Replace the placeholder values:
    - `DBT_CLOUD_API_TOKEN`: Your dbt Cloud API token (get from account settings)
    - `DBT_CLOUD_ACCOUNT_ID`: Your dbt Cloud account ID (numeric only)
-   - `DBT_CLOUD_BASE_URL`: Keep as `https://au.dbt.com` unless using a different region
+   - `DBT_CLOUD_BASE_URL`: Keep as `https://xyz.getdbt.com` unless using a different region
 
 ## Usage
 

@@ -13,7 +13,7 @@ load_dotenv()
 # --- Configuration (from .env file) ---
 API_TOKEN = os.getenv("DBT_CLOUD_API_TOKEN")
 ACCOUNT_ID = os.getenv("DBT_CLOUD_ACCOUNT_ID")  # Must be a string containing only numbers
-BASE_URL = os.getenv("DBT_CLOUD_BASE_URL", "https://au.dbt.com")  # Default to au.dbt.com if not specified
+BASE_URL = os.getenv("DBT_CLOUD_BASE_URL")  
 
 # print(f"DEBUG: Value loaded for ACCOUNT_ID: {ACCOUNT_ID}") # DEBUG LINE REMOVED
 
